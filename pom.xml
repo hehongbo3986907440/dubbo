@@ -11,6 +11,7 @@
         <module>dubbo_api</module>
         <module>dubbo_provider</module>
         <module>dubbo_consumer</module>
+        <module>dubbo_common</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -21,11 +22,10 @@
                 <artifactId>dubbo</artifactId>
                 <version>2.6.5</version>
             </dependency>
-
             <dependency>
-                <groupId>com.101tec</groupId>
+                <groupId>com.github.sgroschupf</groupId>
                 <artifactId>zkclient</artifactId>
-                <version>0.10</version>
+                <version>0.1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

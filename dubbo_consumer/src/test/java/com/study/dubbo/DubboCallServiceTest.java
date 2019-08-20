@@ -11,6 +11,8 @@ public class DubboCallServiceTest {
         ApplicationContext context = new ClassPathXmlApplicationContext("/dubbo-consumer.xml");
         ((ClassPathXmlApplicationContext) context).start();
         IDemoService demoService = (IDemoService)context.getBean("demoService");
+        System.out.println(demoService.getUser(null));
         System.out.println(demoService.getMess());
+        System.out.println(demoService.getUsers());
     }
 }
