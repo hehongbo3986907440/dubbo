@@ -2,7 +2,7 @@ package com.study.common.entity;
 
 import java.io.Serializable;
 
-public class Org implements Serializable {
+public class Org /*implements Serializable*/ {
     private String id;
     private String name;
     private String parent;

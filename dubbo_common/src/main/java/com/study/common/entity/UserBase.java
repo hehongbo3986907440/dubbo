@@ -2,7 +2,7 @@ package com.study.common.entity;
 
 import java.io.Serializable;
 
-public class UserBase implements Serializable {
+public class UserBase /*implements Serializable*/ {
     private String id;
     private String name;
     private Integer age;
